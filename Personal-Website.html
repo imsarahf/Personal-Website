@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me</title>
+    <style>
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bde0bf;
+            color: #263411;
+        }
+        header {
+            background-color: #263411;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            border-bottom: 5px solid #2e7d32;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            padding: 1em;
+            background: white;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        #main-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #2e7d32;
+        }
+        footer {
+            background-color: #263411;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 10px;
+            border-top: 5px solid #2e7d32;
+        }
+        h2 {
+            color: #263411;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 20px;
+            display: inline-block;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            background-color: #f3f3f3;
+        }
+        a {
+            color: #388e3c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .about-me-item {
+            background: #f3f3f3;
+            border: 2px solid #2e7d32;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .interest-description {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header section with name -->
+
+    <header>
+        <h1>Sarah Olufunmilayo Fashinasi</h1>
+    </header>
+
+    <!-- Main introduction section -->
+
+    <div class="container">
+        <div id="main">
+            <section id="main-text">
+                <h2>Hello!</h2>
+                <img src="ME.jpg" alt="Photo of Me" class="profile-img">
+            </section>
+
+            <!-- About Me section -->
+
+            <section id="me">
+                <h2>About Me</h2>
+                <div class="about-me">
+                    <div class="about-me-item">
+                        <p>My name is Sarah Fashinasi, and I am a senior studying Software Engineering here at Kennesaw State University. I was born March 7th, 2002 in Grayson, GA and am the youngest of three. I am a dedicated student with an endless curiosity for technology and a commitment to innovation.
+                        I have a diverse skill set, ranging from communication and customer relations to technical expertise in coding and graphic design; all I believe help me in my day-to-day life.
+                        Outside of tech, I actively engage in my campus’s community by attending various events and participating in clubs I’m passionate about. Some of these clubs include:
+                        Girls Who Code, African Student Association, and National Society of Black Engineers.
+                        My favorite color is green and my favorite sport is soccer. I have a lot of hobbies, of some you can read down below. :)<br>
+                        I am also a certified Adobe Suites expert and an AWS Certified Developer.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hobbies section -->
+
+            <section id="interest">
+                <h2>My Hobbies</h2>
+                <div class="interest-description">
+                    <ul>
+                        <li><strong>Video Games:</strong> I like playing video games like Overwatch, where teamwork and strategy are crucial. Playing video games is not just fun; but also moments I can play and hang out with friends.</li>
+                        <li><strong>Cooking & Baking:</strong> I enjoy cooking and baking. I love experimenting in the kitchen, trying out new recipes, and creating delicious meals and desserts from scratch.</li>
+                        <li><strong>Anime:</strong> Anime is something I really enjoy watching. It's like watching cartoons for adults, with interesting stories, cool art, and memorable characters. It's a great way to escape and be entertained.</li>
+                        <li><strong>Concerts:</strong> Going to concerts and festivals is one of my favorite things to do. The energy, the music, and being surrounded by other fans all supporting a common artist is amazing. It's like a big listening session where everyone shares the love for music.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Technical Skills section -->
+
+            <section id="technical-skills">
+                <h2>Technical Skills</h2>
+                <div class="interest-description">
+                    <ul>
+                        <li>Programming Languages: Python, Java, C#</li>
+                        <li>Web Development: HTML, CSS, JavaScript, React, Unity</li>
+                        <li>Database Management: MySQL</li>
+                        <li>Cloud Services: AWS (Certified Developer)</li>
+                        <li>Graphic Design: Adobe Photoshop, Illustrator (Certified Adobe Suites Expert)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Links to connect section -->
+
+            <section id="links">
+                <h2 style="text-align: center;">Connect with Me</h2>
+                 <ul style="padding: 0; list-style: none; text-align: center;">
+                    <li><a href="mailto:sarahfashinasi@gmail.com">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/sarahfashinasi/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/imsarah_f/" target="_blank">Instagram</a></li>
+                    <li><a href="https://github.com/imsarahf" target="_blank">GitHub</a></li>
+                    <li><a href="Fashinasi, Sarah-Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    
+    <footer>
+        <p>&copy; 2024 Sarah Fashinasi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
